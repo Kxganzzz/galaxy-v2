@@ -5,12 +5,12 @@ let handler = async function (m, { text, usedPrefix }) {
   let user = global.DATABASE._data.users[m.sender]
   let pantek = 'https://a.uguu.se/GrttsiUy.jpg'
   if (user.registered === true) throw `Anda sudah terdaftar\nMau daftar ulang? ${usedPrefix}unreg <SN|SERIAL NUMBER>`
-  if (!Reg.test(text)) throw `Format salah!\nContoh: *${usedPrefix}daftar KurrTod|18*`
+  if (!Reg.test(text)) throw `Format salah!\nContoh: *${usedPrefix}daftar KXyudi|12*`
   let [_, name, splitter, age] = text.match(Reg)
   let totalreg = Object.keys(global.DATABASE._data.users).length
   if (!name) throw 'Nama tidak boleh kosong!'
   if (!age) throw 'Umur tidak boleh kosong!'
-  if (age < 13) throw 'Maaf, Anda belum bisa mendaftar.\n*Minimal umur 13 Ke Atas*'
+  if (age < 12) throw 'Maaf, Anda belum bisa mendaftar.\n*Minimal umur 12 Ke Atas*'
   if (age > 30) throw 'Maaf, Anda terlalu tua.'
   user.name = name
   user.age = parseInt(age)
