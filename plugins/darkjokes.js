@@ -2,7 +2,7 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn, args }) => {
   let res = await fetch(`https://recoders-area.caliph.repl.co/api/darkjokes?apikey=${APIKeys["https://recoders-area.caliph.repl.co"]}`)
   let json = await res.buffer()
-  conn.sendFile(m.chat, json, 'darkjokes.png', `......`, m, false)
+  conn.sendFile(m.chat, json, 'darkjokes.png', `wm yudipermana`, m, false)
 }
 handler.help = ['darkjokes']
 handler.tags = ['nulis']
