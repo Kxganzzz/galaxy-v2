@@ -1,9 +1,9 @@
 const os = process
 global.DeveloperMode = 'false' //true Or false
-global.owner = ['6281220670449', '6282298891772'] || os.env["6281220670449"]// Put your number here
-global.linkGC = ['https://chat.whatsapp.com/FBy8oRq3umC7SbjIFdeMgu:']
-global.mods = ['6281220670449', '6282298891772'] // Want some help?
-global.prems = ['6281220670449', '6282298891772'] // Premium user has unlimited limit
+global.owner = ['62881037046507', '62881037046507'] || os.env["62881037046507"]// Put your number here
+global.linkGC = ['https://chat.whatsapp.com/GOFJlWsbjYG3EIK0rDOYsb:']
+global.mods = ['62881037046507', '62881037046507'] // Want some help?
+global.prems = ['62881037046507', '62881037046507'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -21,8 +21,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'Sticker By Sherlynn Botz'
-global.author = 'JAN LUPA DONATE'
+global.packname = 'Sticker By Aditz Botz'
+global.author = 'ADITZ SULTAN WKWK'
 
 global.multiplier = 69 // The higher, The harder levelup
 
