@@ -1,6 +1,6 @@
 /*
-   RECODE By Adi Gans
-   CREATOR [ NURUTOMO ]
+   RECODE By yudi Gans
+   CREATOR [ Kxyudi ]
 */
 let fs = require ('fs')
 let util = require('util')
@@ -20,7 +20,7 @@ const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const groupsIn = groups.filter(v => !v.read_only)
 let AdiOfficial = './src/avatar_contact.png'
-let pantek = 'https://i.ibb.co/8z7zqXv/IMG-20210618-WA0001.jpg'
+let pantek = 'https://telegra.ph/file/770dc0dd9156199c8982a.jpg'
 
   try {
     AdiOfficial = await conn.getProfilePicture(m.sender)
@@ -152,7 +152,7 @@ let pantek = 'https://i.ibb.co/8z7zqXv/IMG-20210618-WA0001.jpg'
 ├◪ *INFO*
 ││
 │├❒ *Owner Of This Bot*
-│├❒ _http://wa.me/6289504585790_
+│├❒ _http://wa.me/62881037046507_
 │├❒ *Official WhatsApp Bot Groups*
 │├❒ *https://bit.ly/Grupgabutbotv1*
 │├❒ *Tap To Join our Telegram Group*
