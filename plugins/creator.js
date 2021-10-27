@@ -1,7 +1,7 @@
 let handler = function (m) {
-  // this.sendContact(m.chat, '628873421382', 'gsattt', m)
-  this.sendContact(m.chat, '62881037558649', 'Kxyudi', m)
-  m.reply('wa.me/62881037558649')
+  // this.sendContact(m.chat, '62881037046507', 'yudi', m)
+  this.sendContact(m.chat, '62881037046507', 'Kxyudi', m)
+  m.reply('wa.me/62881037046507')
 }
 handler.help = ['owner', 'creator', 'pemilikbot']
 handler.tags = ['info']
