@@ -1,6 +1,6 @@
 /*
-   RECODE By Adi Gans
-   CREATOR [ NURUTOMO ]
+   RECODE By yudi Gans
+   CREATOR [ Kxyudi ]
 */
 let fs = require ('fs')
 let util = require('util')
