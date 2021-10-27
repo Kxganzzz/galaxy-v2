@@ -1,7 +1,7 @@
 {
   "name": "Simpel WhatsApp Bot",
-  "description": "[sherlynn-bot] Thank you for using this script, don't forget to subscribe to my channel KurrXd",
-  "logo": "https://a.uguu.se/GrttsiUy.jpg",
+  "description": "[aditzz-bot] Thank you for using this script, don't forget to add my owner 62881037046507",
+  "logo": "https://telegra.ph/file/770dc0dd9156199c8982a.jpg",
   "keywords": ["termux-whatsapp-bot",
     "whatsapp-bot",
     "whatsapp",
@@ -17,15 +17,15 @@
       "description": "Get the API key here https://api.zeks.xyz",
       "required": true
     },
-    "SHERLYNN BOTZ": {
+    "Aditzz BOTZ": {
       "description": "Enter Your Bot Name",
       "required": false
     },
-    "6281220670449": {
+    "62881037046507": {
       "description": "your whatsapp number",
       "required": true
     },
-    "6282298891772": {
+    "62881037046507": {
       "description": "your whatsapp bot number",
       "required": false
     }
