@@ -15,12 +15,12 @@ let { MessageType, mentionedJid } = require('@adiwajshing/baileys')
 
 let handler  = async (m, { conn, usedPrefix: _p, command }) => {
 let old = performance.now()
-await conn.fakeReply(m.chat, '*「 き⃟🦈 」sabar todd...*', '0@s.whatsapp.net', '*Menampilkan List Menu*', 'status@broadcast')
+await conn.fakeReply(m.chat, '*「 き⃟⃟🗿 」sabar kawan 🗿...*', '0@s.whatsapp.net', '*Menampilkan List Menu*', 'status@broadcast')
 const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const groupsIn = groups.filter(v => !v.read_only)
 let AdiOfficial = './src/avatar_contact.png'
-let pantek = 'https://a.uguu.se/GrttsiUy.jpg'
+let pantek = 'https://telegra.ph/file/770dc0dd9156199c8982a.jpg'
 
   try {
     AdiOfficial = await conn.getProfilePicture(m.sender)
@@ -152,7 +152,7 @@ let pantek = 'https://a.uguu.se/GrttsiUy.jpg'
 ├◪ *INFO*
 ││
 │├き⃟🦈 *Owner Of This Bot*
-│├き⃟🦈 _http://wa.me/62881037558649
+│├き⃟🦈 _http://wa.me/62881037046507
 │
 └───────────────────────
 %readmore`
